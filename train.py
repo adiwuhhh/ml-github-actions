@@ -23,6 +23,6 @@ def train_model():
 if __name__ == "__main__":
     model, X_test, y_test, accuracy = train_model()
     joblib.dump(model, "model.pkl")
-    print("Model training completed successfully - CI test!")
+    print("My name is Aditya")
     print(f"Test accuracy: {accuracy:.2%}")
     print("Model saved as model.pkl")
